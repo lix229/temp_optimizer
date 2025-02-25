@@ -74,8 +74,8 @@ def main():
     st.title("Temperature Optimizer")
     
     # Check if models directory exists
-    if not os.path.exists('report_2.11/models'):
-        st.error("Models directory not found. Please ensure 'report_2.11/models' directory exists.")
+    if not os.path.exists('models'):
+        st.error("Models directory not found. Please ensure 'models' directory exists.")
         st.stop()
 
     # Load models
