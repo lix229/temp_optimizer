@@ -135,14 +135,13 @@ A user-friendly web interface for predicting optimal virus collection parameters
 ### File Structure
 ```
 streamlit_app/
-├── app.py              # Main Streamlit application
-├── requirements.txt    # Python dependencies
-└── README.md          # This file
-
-../models/              # Required model files (from parent directory)
-├── best_model_voting_soft.joblib
-├── label_encoder.joblib
-└── model_info.json
+├── app.py             # Main Streamlit application
+├── requirements.txt   # Python dependencies
+├── README.md          # This file
+└── models/             # Required model files
+   ├──── best_model_voting_soft.joblib
+   ├──── label_encoder.joblib
+   └──── model_info.json
 ```
 
 ## Performance Tips
