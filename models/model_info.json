@@ -1,0 +1,26 @@
+{
+  "feature_names": [
+    "RH",
+    "Temperature",
+    "Particles",
+    "Mod Temp",
+    "Nozzle temp",
+    "(Tnoz-Tmod)",
+    "collection_medium"
+  ],
+  "target_classes": [
+    "Excessive",
+    "Insufficient",
+    "Optimal"
+  ],
+  "model_type": "Voting Classifier (Soft)",
+  "base_estimators": [
+    "Random Forest",
+    "Gradient Boosting",
+    "Extra Trees",
+    "Logistic Regression",
+    "K-Nearest Neighbors"
+  ],
+  "expected_accuracy": 0.72,
+  "preprocessing": "StandardScaler applied to all features"
+}
